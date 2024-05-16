@@ -3,8 +3,15 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Label" type="Label" parent="."]
-offset_left = 475.0
-offset_top = 282.0
-offset_right = 754.0
-offset_bottom = 408.0
+offset_left = 190.0
+offset_top = 173.0
+offset_right = 469.0
+offset_bottom = 299.0
 text = "Hello, world!"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 380.0
+offset_top = 346.0
+offset_right = 659.0
+offset_bottom = 472.0
+text = "Hello from Windows!"
