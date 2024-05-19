@@ -22,3 +22,10 @@ offset_top = 515.0
 offset_right = 994.0
 offset_bottom = 538.0
 text = "Hello from Windows (this time from my laptop)"
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 777.0
+offset_top = 175.0
+offset_right = 960.0
+offset_bottom = 198.0
+text = "Hello from TestBranch!!"
