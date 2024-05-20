@@ -20,5 +20,6 @@ func _physics_process(delta):
 	direction = direction.normalized() # normalize the direction vector, so that its length is 1 and it represents direction only
 	
 	velocity = direction * move_speed # scale the direction vector by the move_speed variable to get the velocity
-
+	
+	# already takes delta into account automatically
 	move_and_slide() # this built-in function moves the player based on their current velocity, taking into account collisions
